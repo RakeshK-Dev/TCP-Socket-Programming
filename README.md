@@ -1,6 +1,7 @@
 # TCP-Socket-Programming
 A multi-threaded auction system where users can connect as sellers or buyers via TCP. Sellers create auctions with item details, and buyers place bids. The server manages concurrent connections, processes bids, and announces winners based on auction type (first-price or second-price). Implements socket programming for real-time auction handling.
 
+
 How to run the code :
 
 Module Name : auc_server.py
@@ -14,6 +15,7 @@ Example :
 $ python3 auc_server.py <port<port>>
 
 Where '<port<port>>' is the TCP port where the server will listen.
+
 
 Module Name : auc_client.py
 
