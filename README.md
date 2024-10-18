@@ -23,4 +23,5 @@ Usage : Run this script to connect to the auction server as either a seller or b
 
 Example :
 $ python3 auc_client.py <host<host>> <port<port>>
+
 Where '<host<host>>' is the server's IP address, and '<port<port>>' is the port number the server is listening on.
