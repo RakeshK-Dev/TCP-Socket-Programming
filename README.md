@@ -22,5 +22,5 @@ Description : This script implements a client that can either act as a seller or
 Usage : Run this script to connect to the auction server as either a seller or buyer. The server must be running for this client to connect.
 
 Example :
-$ python3 auc_client.py <host> <port>
-Where '<host>' is the server's IP address, and '<port>' is the port number the server is listening on.
+$ python3 auc_client.py <host<host>> <port<port>>
+Where '<host<host>>' is the server's IP address, and '<port<port>>' is the port number the server is listening on.
