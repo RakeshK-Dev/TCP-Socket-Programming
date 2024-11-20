@@ -12,8 +12,9 @@ Usage : Run this script on a server to manage auctions. The first client connect
 treated as a seller, and subsequent connections will be buyers.
 
 Example :
+```bash
 $ python3 auc_server.py <port<port>>
-
+```
 Where '<port<port>>' is the TCP port where the server will listen.
 
 
@@ -27,6 +28,7 @@ Description : This script implements a client that can either act as a seller or
 Usage : Run this script to connect to the auction server as either a seller or buyer. The server must be running for this client to connect.
 
 Example :
+```bash
 $ python3 auc_client.py <host<host>> <port<port>>
-
+```
 Where '<host<host>>' is the server's IP address, and '<port<port>>' is the port number the server is listening on.
